@@ -19,10 +19,17 @@ env/
 
 # Large Datasets and data dumps (do not commit 300MB data dumps)
 golden_dataset.csv
+hackernoon_subset.csv
 !reports/*.csv
 *.jsonl
 *.parquet
 *.pq
+
+# Local debug artifacts (helper script used to run the pipeline outside Colab)
+run_lab.py
+run_lab*.log
+_cache_*.pkl
+graphrag_eval_checkpoint.csv
 
 # OS files
 .DS_Store
